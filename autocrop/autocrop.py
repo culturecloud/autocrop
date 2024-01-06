@@ -52,7 +52,7 @@ def bgr_to_rbg(img):
         return img
 
     # Flip the channels. Use explicit indexing in case RGBA is used.
-    img[:, :, [0, 1, 2]] = img[:, :, [2, 1, 0]]
+    # img[:, :, [0, 1, 2]] = img[:, :, [2, 1, 0]]
     return img
 
 
